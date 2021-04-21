@@ -1,0 +1,14 @@
+#num1=int(input("enter number 1:"))
+#num2=int(input("enter number 2:"))
+
+
+#print(f"{num1}+{num2}={num1+num2}")
+
+#number1=9
+#number2=4
+#print(f"{num1}+{num2}={num1+num2}\n{num1}-{num2}={num1-num2}\n{num1}*{num2}={num1*num2}\n{num1}/{num2}={num1/num2}")
+
+#num=468
+#print(num%10)    #right num
+#print(num//10%10)#middele num
+#print(num//100)  #left num
