@@ -15,10 +15,9 @@ class DeckOfCards:
                 self.list1.append(c1)
 
 
-
     def shuffle(self):
         shuffle(self.list1)
-        d2=shuffle(self.list1)
+
 
     def deal_one(self):
         num= choice(self.list1)
@@ -31,6 +30,6 @@ class DeckOfCards:
         print(self.list1)
 
 
-# d1=DeckOfCards()
-# print()
-# print(d1.list1)
+#d1=DeckOfCards()
+#print()
+#print(d1.list1)

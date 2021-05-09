@@ -20,14 +20,21 @@ class Card:
     def __gt__(self, other):
         if self.value>other.value:
             return True
-        elif self.value==other.value:
-            if self.suit>other.value:
+        elif self.value == other.value:
+            if self.suit>other.suit:
                 return True
             else:
                 return False
         else:
             return False
 
-
-# c1=Card(11,1)
-# print(c1)
+    def __eq__(self, other):
+        if self.value > other.value:
+            return True
+        elif self.value == other.value:
+            if self.suit > other.suit:
+                return True
+            else:
+                return False
+        else:
+            return False
